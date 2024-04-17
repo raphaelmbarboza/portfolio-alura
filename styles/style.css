@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #22d4fd;
-    --cor-hover: #272727;
+    --cor-primaria: #391a4b;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #FF4440;
+    --cor-hover: #310b3a;
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -106,7 +106,7 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links_link:hover {
+.apresentacao__links_navegacao:hover {
     background-color: var(--cor-hover);
     /* padding: 3%; */
 }
@@ -141,6 +141,6 @@ body {
     }
 
     .apresentacao__conteudo {
-        width: auto;
+        width: 0;
     }
 }
